@@ -1,4 +1,4 @@
-Hdir = '/Users/ashleyross/DR12/'
+Hdir = '/home/dyt/analysis_data/dr12/'
 import numpy as np
 from numpy import zeros,dot
 from numpy.linalg import pinv
@@ -803,7 +803,7 @@ if __name__ == '__main__':
 	min = 50.
 	max = 150. #the minimum and maximum scales to be used in the fit
 	maxb = 80. #the maximum scale to be used to set the bias prior
-	dir = '/Users/ashleyross/DR12/Ross_2016_COMBINEDDR12/' #change to wherever the data is
+	dir = '/home/dyt/LSSanalysis/Ross_2016_COMBINEDDR12/' #change to wherever the data is
 	ft = 'Ross_2016_COMBINEDDR12_'
 	zb = 'zbin3_' #change number to change zbin
 	binc = 0 #change number to change bin center
